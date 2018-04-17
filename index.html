@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Building a Blog in Gatsby</title>
+  <meta name="author" content="Ali Spittel" />
+  <link href="./style.css" rel="stylesheet" />
+  <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+</head>
+
+<body class="impress-not-supported">
+  <div class="fallback-message">
+    <p>Your browser
+      <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.
+    </p>
+    <p>For the best experience please use the latest
+      <b>Chrome</b>,
+      <b>Safari</b> or
+      <b>Firefox</b> browser.</p>
+  </div>
+
+
+  <div id="impress" data-transition-duration="500">
+
+    <div class="step center first-slide" id="intro" data-scale="2" data-x="-500" data-y="-500">
+      <div class="name">
+        <rainbow-text text="Teaching Code" font-size="100"></rainbow-text>
+        <div class="intro">
+          <p>by Ali Spittel</p>
+          <p>(@aspittel on Twitter)</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="intro-about" class="step" data-rel-x="3000" data-rel-y="1000">
+      <div class="name">
+        <rainbow-text text="about me" font-size="100"></rainbow-text>
+      </div>
+    </div>
+
+    <div id="how-i-learned" class="step" data-rel-x="2000" data-rel-y="1000">
+      <div class="name">
+        <rainbow-text text="how I learned to code" font-size="100"></rainbow-text>
+      </div>
+    </div>
+
+    <div id="how-i-learn" class="step" data-rel-x="2000" data-rel-y="1000">
+      <div class="name">
+        <rainbow-text text="How I (still) learn to code" font-size="50"></rainbow-text>
+      </div>
+    </div>
+
+    <div id="why-im-talking-about-it" class="step" data-rel-x="2000" data-rel-y="1000">
+      <div class="name">
+        <rainbow-text text="Tips for learning" font-size="50"></rainbow-text>
+      </div>
+    </div>
+  
+    <div id="why-im-talking-about-it" class="step" data-rel-x="2000" data-rel-y="1000">
+      <div class="name">
+        <rainbow-text text="Teaching" font-size="50"></rainbow-text>
+      </div>
+    </div>
+
+    <div id="keep-in-touch" class="step" data-rel-x="0" data-rel-y="1000">
+      <div class="slide-header">
+        <rainbow-text text="KEEP IN TOUCH!" font-size="75"></rainbow-text>
+      </div>
+      <h2>
+        <i class="fab fa-twitter" style="color:#00aced;"></i> @aspittel
+      </h2>
+      <h2>
+        <i class="fab fa-linkedin" style="color:#007bb6;"></i> /in/aspittel
+      </h2>
+      <h2>
+        <i class="fas fa-link" style="color:pink;"></i> alispit.tel
+      </h2>
+      <h2>
+        <i class="fab fa-github"></i> aspittel
+      </h2>
+    </div>
+
+    <script type="text/javascript" src="./js/impress.js"></script>
+    <script>
+      impress().init()
+    </script>
+    <script type="text/javascript" src="./js/rainbow-component.js"></script>
+</body>
+
+</html>
